@@ -1,0 +1,15 @@
+server:
+  port: 8190
+
+spring:
+  application:
+    name: jpa-relationships
+  datasource:
+    url: jdbc:mysql://localhost:3306/afrocodemy-jpa-entities-lesson?allowPublicKeyRetrieval=true&serverTimezone=UTC&autoReconnect=true&createDatabaseIfNotExist=true&useSSL=false
+    username: "root"
+    password: ""
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
